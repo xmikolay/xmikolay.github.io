@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.carousel-inner{
+    background-color: #c1c1c1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 4rem; 
+    height: 4rem; 
+    background-size: 100%; 
+}

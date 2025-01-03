@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Valeting,Automotive,Cars,Car Wash,Cleaning">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>MM Valeting</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/store.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand display-1 fs-1" href="#">MM Valeting</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse fs-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="store.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="checkout.html">Cart <span id="checkout"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="user" href="userdetails.html">User Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="loginUser" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="album py-5 bg-light">
+        <div class="container">   
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-2 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="images/dealer-look.jpeg" class="card-img-top img-fluid" alt="car-dealer">
+                    <div class="card-body">
+                      <h5 class="card-title">The "Brand New" Look</h5>
+                      <p class="card-text">This is our most expensive service. This service will require our team to view your car a day before proceeding with the service.
+                        This is done so our team can decide what products they should use and to make sure they are well prepared. <b>This service includes everything you will 
+                        need to have a fresh from the dealer look: Full Interior Valet, Full Exterior Paint Correction Package, Full Undercarriage Clean and Engine Bay Clean.</b>
+                        This is a multi-stage process, and may take at most 4 days. This service can only be done at our designated location, and cannot be done remotely.
+                      </p>
+                      <p class="card-text"><strong>Price: €499.99</strong></p>
+                      <a href="#" id="addtocart" class="btn btn-dark">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="images/full-valet.jpeg" class="card-img-top img-fluid" alt="car-valet">
+                    <div class="card-body">
+                      <h5 class="card-title">Full Valet</h5>
+                      <p class="card-text">This is our middle of the road service price wise, and is perfect for those that dont want to spend too much money on a valet,
+                        but still want their car to look spotless. <b>This service includes: Full exterior wash with clay bar, Paint polish, Ceramic coating treatment and an Interior valet.</b>
+                        This is perfect for people that want their car to look great both from the outside and inside. The Paint polish will give the paint a mirror-like 
+                        look, and the ceramic coating will prevent any dirt sticking to the paint.
+                      </p>
+                      <p class="card-text"><strong>Price: €149.99</strong></p>
+                      <a href="#" id="addtocart" class="btn btn-dark">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="images/exterior-full.jpeg" class="card-img-top img-fluid" alt="car-exterior-polish">
+                    <div class="card-body">
+                      <h5 class="card-title">Exterior Valet</h5>
+                      <p class="card-text">This is our highest option for an exterior-only valet. This service is perfect for those that only need the exterior of their car
+                        to look spotless. <b>This service includes: Full exterior wash with clay bar, Paint polish and a Ceramic coating treatment.</b> The Paint polish will give the paint a mirror-like 
+                        look, and the ceramic coating will prevent any dirt sticking to the paint.
+                      </p>
+                      <p class="card-text"><strong>Price: €99.99</strong></p>
+                      <a href="#" id="addtocart" class="btn btn-dark">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="images/interior-full.jpeg" class="card-img-top img-fluid" alt="interior-detail">
+                    <div class="card-body">
+                      <h5 class="card-title">Interior Detail</h5>
+                      <p class="card-text">This is our Interior Valet option. This service is perfect for people that have never deep cleaned or detailed their interiors 
+                        and feel like they need their cars interior to be refreshed. <b>This service includes: Full Interior Clean, Full Interior Detail.</b> This service 
+                        will leave your interior looking and feeling brand new.
+                      </p>
+                      <p class="card-text"><strong>Price: €49.99</strong></p>
+                      <a href="#" id="addtocart" class="btn btn-dark">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="images/headlight-resto.jpg" class="card-img-top img-fluid" alt="fresh-headlight">
+                    <div class="card-body">
+                      <h5 class="card-title">Headlight Restoration</h5>
+                      <p class="card-text">This is our headlight restoration option, perfect for older cars that have UV damaged lights and are in desperate need of a 
+                        restoration. This service includes: <b>Full Headlight Restoration and a fresh layer of UV-protectant.</b> Old, yellowed out headlights can be a danger 
+                        to you because it stops all the light from your bulbs passing through the headlight housing.
+                      </p>
+                      <p class="card-text"><strong>Price: €19.99</strong></p>
+                      <a href="#" id="addtocart" class="btn btn-dark">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="images/nct-clean.jpg" class="card-img-top img-fluid" alt="nct-center">
+                    <div class="card-body">
+                      <h5 class="card-title">NCT Clean</h5>
+                      <p class="card-text">This is our NCT clean option. This is the perfect service to have done right before your NCT. <b>This service includes: Exterior 
+                        Wash, Basic Interior Clean and Undercarriage wash.</b> We strongly suggest considering our Headlight Restoration service, alongside this service.
+                    </p>
+                      <p class="card-text"><strong>Price: €14.99</strong></p>
+                      <a href="#" id="addtocart" class="btn btn-dark">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+            </div>              
+        </div>
+      </div>
+
+      <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Company</h5>
+              <ul class="list-unstyled">
+                <li><a href="about.html" class="text-muted">About Us</a></li>
+                <li><a href="store.html" class="text-muted">Services</a></li>
+                <li><a href="about.html" class="text-muted">Location</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Support</h5>
+              <ul class="list-unstyled">
+                <li><a href="about.html" class="text-muted">FAQ</a></li>
+                <li><a href="contact.html" class="text-muted">Contact Us</a></li>
+                <li><a href="about.html" class="text-muted">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col text-center">
+              <span class="text-muted">&copy; 2025 MM Valeting. All Rights Reserved.</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="custom-js/custom.js"></script>
+    <script src="custom-js/shop.js"></script>
+  </body>
+</html>
